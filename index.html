@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <!-- --CSS link--- -->
+    <link rel="icon" href="logo.png" id="ho"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class = "image">
+        <img class = "round" src= "./images/Darshan.JPG" height="450px" width="450px">
+      </div>
+    
+      <div class="hero">
+        <nav>
+          <img src="./images/logo.png" class="logo" />
+          <ul>
+            <li><strong><a href="#ho">HOME</a></strong></li>
+            <li><strong><a href="#ski">SKILLS</a></strong></li>
+            <li><strong><a href="#pro">PROJECTS</a></strong></li>
+            <li><strong><a href="#con">CONTACT</a></strong></li>
+          </ul>
+          <a href = "./assets/Darshan Jain Resume 2023.pdf" class="btn">Resume</a>
+        </nav>
+      </div>
+      <div class = "home" id="ho">
+        <h2> HELLO, I AM</h2>
+        <h2><span>DARSHAN JAIN</span></h2>
+      </div>
+
+    <div class="skills" id="ski">
+      <h1>SKILLS</h1>
+      <div class="skillscard">
+        <img src="./images/C++.png" alt="" loading="lazy" class="icon icon-card">
+        <img src="./images/HTML.png" alt="" loading="lazy" class="icon icon-card">
+        <img src="./images/CSS.png" alt="" loading="lazy" class="icon icon-card">
+        <img src="./images/JavaScript.png" alt="" loading="lazy" class="icon icon-card">
+      </div>
+      <div class="skillscard">
+        <img src="./images/React.png" alt="" loading="lazy" class="icon-card">
+        <img src="./images/MySQL.png" alt="" loading="lazy" class="icon-card">
+        <img src="./images/Git.png" alt="" loading="lazy" class="icon-card">
+        <img src="./images/Material UI.png" alt="" loading="lazy" class="icon-card">
+      </div>
+    </div>
+
+    <div class="project" id="pro">
+      <h1>PROJECTS</h1>
+      <div class="projectmain">
+        <div class="procard">
+          <a href = "https://github.com/Dsqr2/HostelHassle">
+          <img src="./images/HostelHassle.png" alt="" loading="lazy" class="projectpic" >
+          </a>
+          <h3 class="project-title">Hostel Hassle App</h3>
+          <p class="project-details">
+            Hostel Hassle is an Android app enabling hostel residents to report complaints and request services. Developed using Android XML and Java for the frontend, it integrates Google Sheets as the backend for efficient data storage. 
+            This user-friendly app streamlines communication and issue resolution within hostel communities.
+          </p>
+        </div>
+        
+        <div class="procard">
+          <a href = "https://github.com/Dsqr2/BudgetBuddy">
+          <img src="./images/Budget Buddy.jpeg" alt="" loading="lazy" class="projectpic">
+          </a>
+          <h3 class="project-title">Budget Buddy</h3>
+          <p class="project-details">
+            Budget Buddy, a web application, efficiently calculates income and expenses. Crafted with HTML, CSS, React.JS, and Material UI, it offers a user-friendly platform for easy financial management. Users can track their budgets, facilitating informed financial decisions, and enhancing financial control for improved budgeting and financial management.
+          </p>
+        </div>
+
+        <div class="procard">
+          <a href="https://dsqr2.github.io/Todo_List/">
+          <img src="./images/Todo List.jpeg" alt="" loading="lazy" class="projectpic">
+          </a>
+          <h3 class="project-title">Todo List</h3>
+          <p class="project-details">
+            The Todo List project is a web application developed with HTML, CSS, and JavaScript. 
+            It offers a simple yet effective platform for users to create, manage, and track tasks. With an intuitive interface, 
+            it enhances productivity by enabling users to organize and prioritize their daily activities efficiently.
+          </p>
+        </div>
+
+        <div class="procard">
+          <a href="https://kunalp03.github.io/Ambiora-official/">
+          <img src="./images/Ambiora.jpg" alt="" loading="lazy" class="projectpic">
+          </a>
+          <h3 class="project-title">Ambiora</h3>
+          <p class="project-details">
+            The Ambiora website, designed and developed, features a countdown timer for an upcoming Techfest, event schedules, past event archives, an 'about us' section, a captivating gallery, contact details, and dedicated sponsor pages. It serves as a central hub for Techfest information, fostering engagement and anticipation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact" id="con">
+      <h2>CONTACT ME</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xrgvypqo" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+                required />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+                required />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                class="input-field" required></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+   <div class = "socials">
+      <h1>SOCIALS</h1>
+      <div class="socialicons">
+        <a href="https://www.instagram.com/drshn_jain/">
+          <img src="./images/instagram.png" alt="" width="60px" height="60px">
+        </a>
+        <a href="https://www.linkedin.com/in/darshan-jain2002/">
+          <img src="./images/linkedin.png" alt="" width="60px" height="60px">
+        </a>
+        <a href="https://github.com/Dsqr2">
+          <img src="./images/github.png" alt="" width="60px" height="60px">
+        </a>
+      </div>
+      <br>
+      <br>
+      <p>Copyright &copy; 2023</p>
+      <p>Designed By <strong>Darshan Jain</strong></p>
+   </div>
+    
+
+  </body>
+</html>
