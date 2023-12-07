@@ -27,12 +27,12 @@ nav
   align-items: center;
   justify-content: space-between;
   padding: 30px 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .logo 
 {
-  max-height: 60px;
+  max-height: 50px;
 }
 
 
@@ -75,7 +75,7 @@ nav ul li a:hover:after
 .btn 
 {
   color: #fd4766;
-  font-size: 16px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 16px 40px;
@@ -91,7 +91,7 @@ nav ul li a:hover:after
 .btn:hover 
 {
   background: #fd4766;
-  border-color: black;
+  border-color: #fd4766;
   color: white;
 
 }
@@ -107,44 +107,22 @@ nav ul li a:hover:after
 
 .round
 {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border-color: white;
   border-style: solid;
   border-width: 10px;
 }
 
-/* .abt 
-{
-  position: absolute;
-  left: 9%;
-  top: 125%;
-} */
-
-/* .imagelink
-{
-  margin-left: 30px;
-} */
-/* .abt h1
-{
-  font-size: 80px;
-  color: #fd4766;
-}
-
-.abt h2
-{
-  font-size: 20px;
-} */
-
 .home 
 {
   position: absolute;
-  left: 9%;
-  top: 50%;
+  left: 15%;
+  top: 35%;
 }
 
 .home h2
 {
-  font-size: 80px;
+  font-size: 50px;
   color: #fd4766;
 }
 .home h2 span
@@ -152,9 +130,17 @@ nav ul li a:hover:after
   color: black;
 }
 
+.para
+{
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  width: 512px;
+}
+
 .image:hover img
 {
-  box-shadow: 0px 3px 20px 10px #fd4766;
+  box-shadow: 0px 3px 10px 3px #fd4766; 
   border-color:black;
   border-width: 0px;
 }
@@ -162,7 +148,7 @@ nav ul li a:hover:after
 .skills
 {
   position: absolute;
-  top: 105%;
+  top: 128%;
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -170,14 +156,14 @@ nav ul li a:hover:after
 
 .skills h1
 {
-  font-size: 60px;
+  font-size: 50px;
   color:black;
 }
 
 .icon-card 
 {
-  width: 10.875rem;
-  height: 10.25rem;
+  width: 8.875rem;
+  height: 8.25rem;
   background-color: white;
   border-radius: 6px;
   border: 3px solid #fd4766;
@@ -195,7 +181,7 @@ nav ul li a:hover:after
 .project
 {
   position: absolute;
-  top: 205%;
+  top: 215%;
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -206,7 +192,7 @@ nav ul li a:hover:after
   width: 100%;
   justify-content: center;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 /* .procard 
@@ -243,7 +229,8 @@ nav ul li a:hover:after
 
 .projectpic:hover
 {
-  box-shadow: 0px 3px 20px 10px black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 10px 3px #fd4766;
   border-color:black;
   width: 100%;   
 }
@@ -298,7 +285,7 @@ nav ul li a:hover:after
 
 .contact h2 
 {
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
 }
