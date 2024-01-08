@@ -180,7 +180,7 @@ nav ul li a:hover:after
 .skills
 {
   position: absolute;
-  top: 128%;
+  top: 110%;
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -213,7 +213,7 @@ nav ul li a:hover:after
 .project
 {
   position: absolute;
-  top: 215%;
+  top: 210%;
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -261,7 +261,7 @@ nav ul li a:hover:after
 
 .projectpic:hover
 {
-  border-radius: 15px;
+  border-radius: 0px;
   box-shadow: 0px 3px 10px 3px black;
   border-color:black;
   width: 70%;   
@@ -516,7 +516,7 @@ nav ul li a:hover:after
   .home 
   {
     position: absolute;
-    left: 20%;
+    left: 17%;
     top: 130%;
   }
 
