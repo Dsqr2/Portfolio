@@ -11,6 +11,8 @@ Discover the range of skills I bring to the table, from programming languages an
 Dive into a collection of projects that highlight my hands-on experience and showcase my problem-solving abilities. Each project comes with a brief description, key technologies used, and links to explore further.
 # 4. Contact Us:
 Reach out to me using the contact form powered by Formspree. Whether you have inquiries, collaboration proposals, or just want to connect, this section provides a seamless way to get in touch.
+# 5. Resume: 
+From this section, you can download my Resume.
 
 # Technologies Used:
 1. HTML
