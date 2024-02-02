@@ -13,10 +13,10 @@ Dive into a collection of projects that highlight my hands-on experience and sho
 Reach out to me using the contact form powered by Formspree. Whether you have inquiries, collaboration proposals, or just want to connect, this section provides a seamless way to get in touch.
 
 # Technologies Used:
-&HTML
-&CSS
-&JavaScript
-&Formspree (for contact form)
+1. HTML
+2. CSS
+3. JavaScript
+4. Formspree (for contact form)
 
 # Contributions and Feedback:
 Contributions are appreciated! If you have suggestions for improving the portfolio or spot any issues, feel free to submit pull requests. Your feedback is valuable in shaping the content and presentation of my portfolio.
