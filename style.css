@@ -468,7 +468,7 @@ nav ul li a:hover:after
   {
     list-style: none;
     display: inline-block;
-    padding: 0px 110px;
+    padding: 0px 8px;
   }
 
   nav ul li a 
