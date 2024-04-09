@@ -107,7 +107,6 @@ nav ul li a:hover:after
   right:5%;
   top:28%;
   margin-left: 20px;
-  
 }
 
 .round
@@ -272,17 +271,18 @@ nav ul li a:hover:after
   width: 62%;   
 }
 
-.projects-title 
+.project-title 
 {
   color: #fd4766;
+  padding-top: 6px;
   text-align: center;
-  margin-bottom: 1rem;
-  margin-bottom: var(--bottom-margin);
+ font-size: 25px;
 }
 
 .project-details 
 {
   font-weight: 15px;
+  padding-top: 20px;
   box-sizing: border-box;
   margin-bottom: var(--bottom-margin);
 }
@@ -522,7 +522,7 @@ nav ul li a:hover:after
   .home 
   {
     position: absolute;
-    left: 17%;
+    left: 14%;
     top: 130%;
   }
 
@@ -553,7 +553,7 @@ nav ul li a:hover:after
   .project
   {
     position: absolute;
-    top: 360%;
+    top: 392%;
     width: 155%;
     justify-content: center;
     text-align: center;
@@ -567,23 +567,30 @@ nav ul li a:hover:after
     font-size: 40px;
   }
 
+  .projectmain
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
   .procard
   {
     justify-content: center;
-    width: 60.875rem;
-    height: 37.25rem;
+    width: 23.875rem;
+    height: 38.25rem;
     background-color: white;
     border-radius: 24px;
     border: 6px solid #fd4766;
     box-shadow: 0px 3px 10px 2px black;
-    padding: 1px;
-    margin: 21px;
+    padding: 1px 2px 2px 2px;
+    margin: 19px;
   }
   .contact
   {
     position: absolute;
-    top: 650%;
-    width: 160%;
+    top: 1000%;
+    width: 150%;
+    margin-left: 5%;
     justify-content: center;
     text-align: center;
   }
@@ -606,7 +613,7 @@ nav ul li a:hover:after
   .socials
   {
     position: absolute;
-    top: 775%;
+    top: 1100%;
     width: 160%;
     justify-content: center;
     text-align: center;
